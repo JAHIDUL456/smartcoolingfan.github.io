@@ -1,0 +1,1 @@
+# smartcoolingfan.github.io
