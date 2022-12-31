@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart_cooling_system</title>
+    <!--This section is for css and bootstarp-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="head_section">
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-6 col-sm-2 ">
+                <div class="logo">
+
+                 <img src="images/logo.png"alt="logo"></div></div>
+
+
+            <div class="col-lg-10 col-md-6 col-sm-10 title"><div class="title">
+                RAJSHAHI UNIVERSITY OF ENGINEERING & TECHNOLOGY
+            </div></div>
+        </div>
+    </section>
+
+   </header>
+<main class="main_sec">
+<div class="dept">
+    <h3 class="line">
+    Electronics & Telecommunication Engineering
+</h3></div>
+
+
+<!--image section-->
+<section class="image">
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="temp">
+                    <img src="images/3.jpg " height="310px"  alt="">
+                </div>
+            </div>
+
+
+
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="about">
+                    <p class="para">Smart Cooling System</p>
+                    <img src="images/fast-forward.gif" class="fal" alt="">
+                </div>
+            </div>
+
+
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="temp">
+                    <img src="images/f2.jpg " height="310px"  alt="">
+                </div>
+            </div>
+    
+        </div>
+    </section>
+</section>
+
+
+<!--smart cooling system demo-->
+
+
+
+<section class="demo">
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="demo1">
+                    <img src="gif/hot.gif" height="320px"  alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="demo3">
+                    <img src="gif/fan.gif" height="300px"  alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="demo3">
+                    <img src="gif/cold.gif" height="300px"  alt="">
+                </div>
+            </div>
+    
+        </div>
+    </section>
+</section>
+
+<!--Thingspeak section-->
+<div class="tita">
+    <h2 class="tita2">
+        TEMPERATURE AND HUMIDITY METER
+    </h2>
+</div>
+<section class="thing">
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="tempa">
+                    <div class="tempa1"><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1974768/widgets/567075"></iframe></div>
+                   
+                </div>
+            </div>
+<!--222-->
+<div class="col-lg-6 col-md-12 col-sm-12">
+    <div class="tempa">
+        <div class="tempa1"><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1974768/widgets/575697"></iframe></div>
+       
+    </div>
+</div>
+
+<!--333-->
+
+<div class="col-lg-6 col-md-12 col-sm-12">
+    <div class="tempa">
+
+        <div class="tempa2"><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1974768/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></div>
+       
+       
+    </div>
+</div>
+
+
+
+<!--444-->
+
+<div class="col-lg-6 col-md-12 col-sm-12">
+    <div class="tempa">
+        <div class="tempa2"><iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1974768/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe></div>
+    </div>
+</div>
+
+
+        </div>
+    </section>
+</section>
+
+<!--This section is for controling the temperature-->
+
+
+
+<section class="controler">
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="control">
+                    <img src="gif/control1.gif" height="430px"  alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <div class="control_buttons" id="top">
+                    
+                     
+                    
+                    <div class="input_button">
+                        <h4 class="hara">
+                            CONTROL THE DEVICE FROM ANYWHERE
+                        </h4>
+                        <div class="lara">
+                            <input type="button" class="inputt" value="CHANGE" onclick="jakir()">
+                    
+                            <a href="https://api.thingspeak.com/update?api_key=J20TQB5MT5IDIP8E&field1=0" id="link" target="_blank"><button class="sub">submit</button></a>
+    
+                        </div>
+        
+                        <div class="clock">
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1976033/widgets/578723"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+</section>
+
+<!--This section is for downloading the excel file-->
+<h2 class="hara2">
+    DOWNLOAD THE DAILY UPDATED DATA
+</h2>
+
+
+<!--downloading-->
+
+<section class="exceler">
+    <section class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="data">
+                    <img src="gif/downloading.gif" height="320px"  alt="">
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="excel">
+                    
+                     <a href="https://thingspeak.com/channels/1974768/feed.csv" class="linko" target="_blank">Download</a>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <div class="data">
+                    <img src="gif/excel.gif" height="300px"  alt="">
+                </div>
+            </div>
+    
+        </div>
+    </section>
+</section>
+
+
+
+
+
+</main>
+
+<script src="main.js"></script>
+</body>
+</html>

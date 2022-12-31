@@ -1,0 +1,313 @@
+/*RESET THE default */
+*{
+    margin:0;
+    padding:0;
+ width: 100%;
+background-color: white;
+}
+
+
+.head_section{
+    
+    width: 100%;
+   
+}
+.title{
+    
+
+    font-size: 2rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    text-align: center;
+    
+}
+
+/*this is the main section*/
+
+.dept{
+    text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+   
+}
+
+.line{
+    background-color: black;
+border:2px solid rgb(255, 255, 255);
+color: white;
+padding: 1rem;
+font-weight: 700;
+border-radius: 2rem;
+
+}
+
+.about{
+   
+    text-align: center;
+    padding-top: 5rem;
+}
+   
+.para{
+  background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 7px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid black;
+    
+    border-radius: .5rem;
+}
+
+.fal{
+    height:100px;
+width: 90px;
+transition: all 1s;
+}
+
+.fal:hover{
+    transform: rotate(90deg);
+}
+
+.image{
+    padding-bottom: 1rem;
+}
+
+/*THINGSPEAK section*/
+
+.tempa{
+
+    margin: 0rem;
+    padding: 1rem;
+}
+.tempa1 iframe{
+
+     
+ 
+   
+    border-radius: 5rem;
+    box-shadow: .3rem .2rem 1rem;
+ }
+
+ .tempa2 iframe{
+
+    box-shadow: .3rem .2rem 1rem;
+    border: 1px solid black;
+    border-radius: 2rem;
+   
+ }
+
+ .tempa1{
+    padding-bottom: 1rem;
+ }
+
+ /*this section is for the gif*/
+.controler{
+   
+    text-align: center;
+}
+
+.control{
+margin-left: 2.2rem;
+margin-top: 5rem;
+    text-align: center;
+
+}
+
+
+
+
+
+ /*button input section*/
+
+ .input_button{
+   
+    padding: 7rem 6rem 4rem 6rem;
+    text-align: center;
+    margin-left: 3rem;
+ }
+
+ .inputt{
+    border: 2px solid black;
+  border-radius: 2rem;
+   width: 8rem;
+   height: 3rem;
+   background: rgb(20,171,110);
+   background: linear-gradient(90deg, rgb(182, 197, 21) 0%, rgb(229, 110, 35) 36%, rgba(0,168,255,1) 91%);
+   font-weight: 700;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   text-transform: uppercase;
+font-size: 1.2rem;
+font-weight: 700;
+
+margin-bottom: 1rem;
+transition: all .5s;
+ }
+
+
+
+ .inputt:hover{
+transform: scale(.9);
+
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+font-weight: 700;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+ }
+
+ .sub{
+    width: 8rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 2rem;
+    font-weight: 700;background: rgb(20,171,110);
+    background: linear-gradient(90deg, rgba(20,171,110,1) 0%, rgba(9,121,114,1) 36%, rgba(0,168,255,1) 91%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase; 
+    font-size: 1.2rem;
+font-weight: 700;
+transition: all .5s;
+ }
+
+
+ .sub:hover{
+    transform: scale(.9);
+
+    background: linear-gradient(90deg, rgb(91, 180, 58) 0%, rgb(218, 245, 66) 50%, rgba(252,176,69,1) 100%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+ }
+
+
+.hara{
+font-weight: 700;
+background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-transform: uppercase;  
+  
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+    border-radius: .5rem;
+}
+ 
+.hara2{
+    font-weight: 700;
+    background: rgb(20,171,110);
+    background: linear-gradient(90deg, rgba(20,171,110,1) 0%, rgba(9,121,114,1) 36%, rgba(0,168,255,1) 91%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+
+    
+
+}
+
+
+.clock{
+margin-left: -1rem;
+    padding: 2rem;
+}
+.clock iframe{
+   
+ height: 11rem;
+ width: 12rem;
+ border-radius: 2rem;
+ box-shadow: .5rem .5rem 3rem;
+ border: 1px solid black;
+ border-radius: 2rem;
+}
+
+.excel{
+    padding-top: 8rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    transition: all .5s;
+}
+
+.excel:hover{
+
+    transform: scale(1.1);
+
+    background: linear-gradient(90deg, rgb(91, 180, 58) 0%, rgb(218, 245, 66) 50%, rgba(252,176,69,1) 100%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.linko{
+    font-size: 1.5rem;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    border: 1px solid black;
+    padding:.7rem;
+    border-radius: 1.5rem;
+    border-width: .3rem;
+    
+}
+
+
+.lara{
+    margin-top: 2rem;
+}
+
+.demo3{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+.demo{
+    margin-top: -2rem;
+}
+
+
+
+.exceler{
+    margin-bottom: 3rem;
+}
+
+
+.tita2{
+
+    font-weight: 700;
+    background: rgb(207, 22, 74);
+    background: linear-gradient(90deg, rgb(243, 12, 12) 0%, rgb(197, 25, 13) 36%, rgb(13, 24, 225) 91%);
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+margin-top: 1rem;
+
+
+}
+
