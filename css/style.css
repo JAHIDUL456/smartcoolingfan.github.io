@@ -44,7 +44,8 @@ border-radius: 2rem;
 .about{
    
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 1rem;
+    
 }
    
 .para{
@@ -60,19 +61,18 @@ border-radius: 2rem;
     font-weight: 500;
     padding: 7px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-bottom: 2px solid black;
-    
-    border-radius: .5rem;
+   
 }
 
 .fal{
     height:100px;
 width: 90px;
 transition: all 1s;
+transform: rotate(90deg);
 }
 
 .fal:hover{
-    transform: rotate(90deg);
+    transform: rotate(270deg);
 }
 
 .image{
@@ -311,3 +311,37 @@ margin-top: 1rem;
 
 }
 
+
+
+.clock3{
+    margin-left: -1rem;
+        padding: 2rem;
+        float: left;
+    }
+    .clock3 iframe{
+       
+     height: 11rem;
+     width: 12rem;
+     border-radius: 2rem;
+     box-shadow: .5rem .5rem 2rem;
+     border: 0px solid black;
+     border-radius: 2rem;
+
+    }
+
+    .now{
+
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.2rem;
+        margin-left: -1rem;
+        background: rgb(131,58,180);
+        background: linear-gradient(90deg, rgb(232, 17, 13) 0%, rgb(225, 160, 9) 50%, rgb(8, 143, 227) 100%);
+        font-weight: 700;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+    }
+
+   
